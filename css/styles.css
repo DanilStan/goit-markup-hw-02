@@ -67,8 +67,8 @@ body {
 
 /* Секция герой или приветствия */
 .hero {
-    background-color: var(--secondary-background-color);
-    text-align: center;
+  background-color: var(--secondary-background-color);
+  text-align: center;
 }
 .hero-title {
   color: var(--primary-white-color);
@@ -87,13 +87,14 @@ body {
   font-size: 16px;
   line-height: 1.88px;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
 /* Секция преимущиства */
 
 /* Скрытый заголовок */
 .features h2 {
-    color: var(--primary-background-color);
+  color: var(--primary-background-color);
 }
 
 .features-title {
@@ -121,9 +122,9 @@ body {
 
 /* Секция наша команда */
 .team-title-small {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.18;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
 }
 
 .team-text {
@@ -135,11 +136,11 @@ body {
 
 /* Подвал */
 .footer {
-    background-color: var(--secondary-background-color);
+  background-color: var(--secondary-background-color);
 }
 
 .logo.logo-footer {
-    color: var(--primary-white-color);
+  color: var(--primary-white-color);
 }
 
 .footer-link {
@@ -149,10 +150,66 @@ body {
   text-decoration: none;
 }
 .footer-link.white {
-    color: var(--primary-white-color);
+  color: var(--primary-white-color);
 }
 
 .footer-link:hover,
 .footer-link:focus {
-    color: var(--acent-color);
+  color: var(--acent-color);
+}
+
+/* 
+Страница портфолио "Шапка" сайта и "Футер"
+копируюся из страницы "Студия"
+*/
+
+ /* Скрытый заголовок */
+.section > h1 {
+  color: var(--primary-background-color);
+}
+
+/* Ефект присутствия на страницы (для "Студии и Портфолио") */
+.link.primary {
+  color:var(--acent-color);
+}
+
+/* Кнопки фильтра */
+.filter-button {
+  font-family: Roboto, sans-serif;
+  color: var(--title-text-color);
+  background-color: #f5f3fa;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  border: none;
+  cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--acent-color);
+}
+
+/* Список из елементов фильтра */
+.items .link {
+  text-decoration: none;
+}
+
+.items-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.items-text {
+  color: var(--secondary-text-color);
+
+  font-size: 16px;
+  line-height: 1.88px;
 }
