@@ -60,6 +60,10 @@ body {
     color: var(--acent-color);
 }
 
+.site-nav .auth {
+    color: var(--secondary-text-color);
+}
+
 /* Клас для сброса параметров списков */
 .list {
   list-style: none;
@@ -77,12 +81,14 @@ body {
   font-size: 44px;
   line-height: 1.36;  
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .hero-button {
   color: var(--primary-white-color);
   background-color: var(--acent-color);
-
+  
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -107,7 +113,7 @@ body {
 .features-text {
   color: var(--secondary-text-color);
 
-  line-height: 1.71px;
+  line-height: 1.71;
 }
 
 /* Секция занятий сайта */
@@ -132,7 +138,7 @@ body {
   color: var(--secondary-text-color);
 
   font-size: 16px;
-  line-height: 1.18px;
+  line-height: 1.18;
 }
 
 /* Подвал */
@@ -149,6 +155,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
+  font-style: normal;
 }
 .footer-link.white {
   color: var(--primary-white-color);
@@ -180,6 +187,7 @@ body {
   color: var(--title-text-color);
   background-color: #f5f3fa;
 
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -212,5 +220,5 @@ body {
   color: var(--secondary-text-color);
 
   font-size: 16px;
-  line-height: 1.88px;
+  line-height: 1.88;
 }
